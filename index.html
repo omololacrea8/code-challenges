@@ -1,0 +1,108 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Challenge</title>
+        <link rel="icon" href="img/olo.PNG" sizes="16*16">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class='box'>
+            <div class='wave -one'></div>
+            <div class='wave -two'></div>
+            <div class='wave -three'></div>
+          </div>
+        <div class="modal-wrapper">
+            <div class="login-wrapper">
+              <div class="collapsed-section hidden">
+                <div class="hide-section">
+                    <h1>#30days of code</h1>
+                  <h2 class="collapsed-heading">Have an Account?</h2>
+                  <p class="collapsed-text">To keep connected with us please<br>login with your personal info</p>
+                    <button class="collapsed-btn" onclick="toggleOpen()">Log In</button>
+                </div>
+              </div>
+              <div class="form-wrapper login">
+                <h1>#30days of code</h1>
+                <h2 class="form-heading">Log In To Your Profile</h2>
+                <div class="other-icons">
+                  <a href="#">
+                    <i class="fa fa-facebook-f" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-google" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-twitter" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                </div>
+                <form action="" class="form login">
+                  <span>or use your email account:</span>
+                  <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="Email" value="">
+                  </div>
+                  <div class="input-field">
+                    <i class="fa fa-key"></i>
+                    <input type="password" placeholder="Password" value="">
+                  </div>
+                  
+                  <a href="#" id="forgot-password">Forgot Your Password?</a>
+                  <button class="form-btn" type="submit"><a href="">Log In</a></button>
+                </form>
+              </div>
+            </div>
+            <div class="signup-wrapper">
+              <div class="collapsed-section">
+                <div class="hide-section">
+                  <h2 class="collapsed-heading">New Here?</h2>
+                  <p class="collapsed-text">Enter your personal details<br>and start journey with us!</p>
+                    <button class="collapsed-btn" onclick="toggleOpen()">Sign Up</button>
+                </div>
+              </div>
+              <div class="form-wrapper signup hidden">
+                <h2 class="form-heading">Create Account</h2>
+                <div class="other-icons">
+                  <a href="#">
+                    <i class="fa fa-facebook-f" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-google" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-twitter" style="font-size:20px;color:#0682f7"></i>
+                  </a>
+                </div>
+                <form action="" class="form login">
+                  <span>or use your email for registration:</span>
+                  <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Name" value="">
+                  </div>
+                  <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="Email" value="">
+                  </div>
+                  <div class="input-field">
+                    <i class="fa fa-key"></i>
+                    <input type="password" placeholder="Password" value="">
+                  </div>
+                  <div class="input-field">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <input type="nickname" placeholder="NickName" value="">
+                  </div>
+                  <div class="input-field">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <input type="track" placeholder="Track" value="">
+                  <button class="form-btn" type="submit">Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <script src="script.js"></script>
+    </body>
+    </html>
+    
